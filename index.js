@@ -1,4 +1,5 @@
 const express = require("express")
+const app = express()
 const fs = require("fs")
 const path = require("path");
 
@@ -78,7 +79,7 @@ const data = [
     },
 ]
 
-const app = express()
+
 
 app.use(express.json())
 
